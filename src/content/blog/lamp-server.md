@@ -21,7 +21,7 @@ description: How to setup a LAMP server in ubuntu
 - The Apache web server is an open-source HTTP server that can serve dynamic web pages. You can install it by running the following command in the terminal:
 
 ```sh
-     sudo apt-get install apache2 -y
+   sudo apt-get install apache2 -y
 ```
 
 ### 2. Install MariaDB
@@ -29,7 +29,7 @@ description: How to setup a LAMP server in ubuntu
 - MariaDB is a fork of the MySQL database management system, and it is commonly used with LAMP servers. You can install it by running the following command in the terminal:
 
 ```sh
-     sudo apt-get install mariadb-server mariadb-client -y
+   sudo apt-get install mariadb-server mariadb-client -y
 ```
 
 ### 3. Start and secure MariaDB:
@@ -37,8 +37,9 @@ description: How to setup a LAMP server in ubuntu
 - Once MariaDB is installed, start the service and secure it by running the following command:
 
 ```sh
-     sudo systemctl start mariadb
-     sudo mysql_secure_installation
+   sudo systemctl start mariadb
+
+   sudo mysql_secure_installation
 ```
 
 ### 4. Install PHP:
@@ -46,7 +47,7 @@ description: How to setup a LAMP server in ubuntu
 - PHP is a server-side scripting language that is used to create dynamic web pages. You can install it by running the following command in the terminal:
 
 ```sh
-     sudo apt-get install php libapache2-mod-php -y
+   sudo apt-get install php libapache2-mod-php -y
 ```
 
 ### 5. Test the LAMP server:
@@ -65,10 +66,10 @@ description: How to setup a LAMP server in ubuntu
 - From your root directory enter the following commands
 
 ```sh
-     cd /etc
-     ls  (you should see apache2 folder here)
-     cd /var/www/html
-     sudo nano /var/www/html/info.php
+   cd /etc
+   ls  (you should see apache2 folder here)
+   cd /var/www/html
+   sudo nano /var/www/html/info.php
 ```
 
 - Inside nano editor paste the php code mentioned above, then hit ctrl+s to save finally ctrl+x to quit nano
@@ -76,13 +77,13 @@ description: How to setup a LAMP server in ubuntu
 - Next get your ip by entering the following command:
 
 ```sh
-     hostname -I
+   hostname -I
 ```
 
 - Copy the ip address and enter the following in web browser of your choice
 
 ```sh
-http://your_server_IP/info.php
+   http://your_server_IP/info.php
 ```
 
 ##### If you see a page with information about your PHP installation, your LAMP server is up and running successfully.
