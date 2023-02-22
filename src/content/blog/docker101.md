@@ -16,7 +16,7 @@ description: DOCKER 101
 I started learning docker this week and here are some of my notes. So first let's get some definitions straight before we proceed.
 
 <details>
-  <summary>What are containers?</summary>
+  <summary> What are containers?</summary>
  
 <br />
 A container is a lightweight, standalone executable package that contains everything needed to run an application. It is built from an image, which is a static snapshot of a containerized application and its dependencies. <br/>
@@ -48,7 +48,7 @@ Containers provide an isolated environment for an application to run, allowing i
 
  <br>
  <details>
- <summary>Image and container</summary>
+<summary>  Image and container</summary>
  An image is a static snapshot of a containerized application and its dependencies. It contains everything needed to run the application, including the application code, libraries, and system tools, as well as any configuration files or environment variables. Images are created from a Dockerfile, which defines the configuration for the image.
  
  Containers, on the other hand, are running instances of an image. When an image is run, it creates a container, which is an isolated environment for the application to run in.
@@ -60,7 +60,6 @@ Containers provide an isolated environment for an application to run, allowing i
 
 ### Getting Docker on our system
 
-<br>
 I am on linux mint machine and here are the steps i followed to get docker on my system.
 
 1. Checking off prerequisite:
