@@ -118,7 +118,10 @@ we will go to docker hub and run test an image
 ```sh
   sudo docker run docker/whalesay cowsay yay:D
 ```
+   You should see something like this: <br>
+   ![blog-docker](https://user-images.githubusercontent.com/123767474/220609847-8ef50152-9e92-4ef4-b47e-beda4ff8e7c5.png)
 
+   
 ---
 
 ## Basic docker commands
