@@ -1,14 +1,14 @@
 ---
 author: Ash
-pubDatetime: 2025-03-15T1:20:00Z
+pubDatetime: 2025-06-22T7:20:00Z
 title: My Minimal Data Engineering Setup
-postSlug: Data-eng 101
+postSlug: My-Minimal-Data-Engineering-Setup
 featured: true
 draft: false
 tags:
   - data-engineering
 ogImage: ""
-description: DATA ENGINEERING 101
+description: My Minimal Data Engineering Setup on Linux
 ---
 
 ````markdown
