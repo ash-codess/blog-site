@@ -169,3 +169,29 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=MyNewStrong@123" \
   -v mssql_data:/var/opt/mssql \
   -d mcr.microsoft.com/mssql/server:2022-latest
 ```
+
+## 💾 Postgress via docker
+
+Create and run the postgress container:
+
+```bash
+docker run --name postgres \
+  -e POSTGRES_USER=rootp\
+  -e POSTGRES_PASSWORD=MyNewStrong@123\
+  -e POSTGRES_DB=mydb \
+  -p 5432:5432 \
+  -v pg_data:/var/lib/postgresql/data \
+  -d postgres:15
+```
+
+## Installing superset
+
+```
+    git clone https://github.com/apache/superset.git
+
+    sudo apt install docker-compose
+
+    docker compose -f compose-non-dev.yml up
+```
+
+Open http://localhost:8088
