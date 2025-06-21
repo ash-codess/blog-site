@@ -1,7 +1,7 @@
 ---
 author: Ash
 pubDatetime: 2025-06-21T1:20:00Z
-title: troubeshooting
+title: How to Format a Write-Protected USB on Windows
 postSlug: Troubleshoot
 featured: true
 draft: false
