@@ -11,10 +11,9 @@ ogImage: ""
 description: My Minimal Data Engineering Setup on Linux
 ---
 
-````markdown
-# 🛠️ My Minimal Data Engineering Setup (Linux Mint)
+🛠️ My Minimal Data Engineering Setup (Linux Mint)
 
-Set up Docker, Microsoft SQL Server, and DBeaver Community Edition on Linux Mint for a local data engineering environment — all in one place.
+Set up Docker, Microsoft SQL Server, and DBeaver Community Edition, superset,postgres on Linux Mint for a local data engineering environment — all in one place.
 
 ---
 
@@ -26,7 +25,6 @@ Update and install prerequisites:
 sudo apt update
 sudo apt install ca-certificates curl gnupg lsb-release
 ```
-````
 
 Add Docker’s GPG key:
 
