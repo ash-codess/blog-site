@@ -182,6 +182,10 @@ docker run --name postgres \
   -d postgres:15
 ```
 
+To start postgres container in docker:
+
+`docker start postgres`
+
 ## Installing superset
 
 ```
